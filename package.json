@@ -17,5 +17,14 @@
         "path": "./themes/minai-color-theme.json"
       }
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/arrow2nd/minai-for-vscode/issues",
+    "email": "contact@arrow2nd.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arrow2nd/minai-for-vscode"
+  },
+  "homepage": "https://github.com/arrow2nd/minai-for-vscode"
 }
