@@ -1,5 +1,5 @@
 {
-  "name": "Minai",
+  "name": "minai",
   "type": "dark",
   "colors": {
     "editor.background": "#232934",
@@ -114,12 +114,12 @@
     // 括弧ペアの色付け設定
     "editorBracketMatch.background": "#384153",
     "editorBracketMatch.border": "#E8E2D6",
-    "editorBracketHighlight.foreground1": "#578CAD",
-    "editorBracketHighlight.foreground2": "#BBCACB",
-    "editorBracketHighlight.foreground3": "#B06E82",
-    "editorBracketHighlight.foreground4": "#D4AF8D",
-    "editorBracketHighlight.foreground5": "#76BFBA",
-    "editorBracketHighlight.foreground6": "#BEBF70",
+    "editorBracketHighlight.foreground1": "#E8E2D6",
+    "editorBracketHighlight.foreground2": "#E8E2D6",
+    "editorBracketHighlight.foreground3": "#E8E2D6",
+    "editorBracketHighlight.foreground4": "#E8E2D6",
+    "editorBracketHighlight.foreground5": "#E8E2D6",
+    "editorBracketHighlight.foreground6": "#E8E2D6",
     "editorBracketHighlight.unexpectedBracket.foreground": "#C66471"
   },
   "tokenColors": [
@@ -350,6 +350,20 @@
       "scope": ["markup.inline.raw", "markup.fenced_code.block"],
       "settings": {
         "foreground": "#B3B8C2"
+      }
+    },
+    {
+      "name": "Brackets and Punctuation",
+      "scope": [
+        "meta.brace.round",
+        "meta.brace.square",
+        "meta.brace.curly",
+        "punctuation.definition.parameters",
+        "punctuation.definition.array",
+        "punctuation.definition.block"
+      ],
+      "settings": {
+        "foreground": "#E8E2D6"
       }
     }
   ],
