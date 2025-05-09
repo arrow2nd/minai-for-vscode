@@ -26,5 +26,8 @@
     "type": "git",
     "url": "https://github.com/arrow2nd/minai-for-vscode"
   },
-  "homepage": "https://github.com/arrow2nd/minai-for-vscode"
+  "homepage": "https://github.com/arrow2nd/minai-for-vscode",
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
 }
