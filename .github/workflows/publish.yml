@@ -23,6 +23,6 @@ jobs:
 
       - name: Package & Publish
         run: |
-          npm exec vsce package
+          npm exec vsce publish
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
