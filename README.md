@@ -1,0 +1,3 @@
+# minai for VSCode
+
+💉 よりよいカラースキーム
